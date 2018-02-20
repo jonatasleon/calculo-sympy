@@ -17,3 +17,5 @@ ipython kernel install --user --name="python3"
 ```
 
 Para minha comodidade, utilizei o plugin [Hydrogen](https://atom.io/packages/hydrogen) para o [Atom](https://atom.io/), no entanto, você pode utilizar a interface do Jupyter diretamente apenas executando `jupyter notebook` no terminal (será necessário exportar os arquivos `.py` para `.ipynb`).
+
+![Arquivos limit.py com hydrogen](images/screenshot_1.png)

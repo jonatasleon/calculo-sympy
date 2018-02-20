@@ -10,19 +10,18 @@ x = symbols('x')
 limit((x - 2) / (x ** 2 - 4), x, 2)
 
 
-# Exercicio 2
+# Exercicio
 # %% symbols
-x, y, z, t = symbols('x y z t')
-k, m, n = symbols('k m n', integer=True)
-f, g, h = symbols('f g h', cls=Function)
+x = symbols('x')
+
 
 # %% functions
 def f(x):
     return ((x ** 2 + x - 6) / (x + 3))
 
 
-f(800)
+f(x)
 Limit(f(x), x, -3, dir="+")
-Limit(f(x), x, oo, dir="-")
-expr
-expr.doit()
+Limit(f(x), x, -3, dir="+").doit()
+Limit(f(x), x, -3, dir="-")
+Limit(f(x), x, -3, dir="-").doit()
